@@ -32,3 +32,25 @@
 * NPM node package manager
 * Linux / Terminal
 
+## linux commands:
+* cd
+* cd ..
+* pwd
+* mkdir folder_name
+* rm -r folder_name 
+* touch file.txt
+* 
+
+## fro linux tips
+* npm init 
+* npm install react-toastify --save
+
+## create react app
+* npx create-react-app my-first-app
+* npm start
+
+## tips:
+* src folder is for devlopers , we will do all 
+
+## webpack
+* webpack.in we can use this for conveting many html , css ,javascript into one file (one html , one css ,one javascript)
