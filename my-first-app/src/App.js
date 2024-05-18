@@ -1,9 +1,41 @@
 import React from "react";
 
-function App() {
-    return <h1> hello world teja noob</h1>;
+const InnerComponent = () => {
+    return <hi> Inner Compu</hi>;
+};
+
+
+
+
+const PrintName = () => {
+    return < InnerComponent />
+};
+
+const App = () => {
+    const user = {
+        firstNAme : "vivek",
+        lastname : "naidu",
+    };
+    return (
+        <secioin>
+            <PrintName />
+            <PrintName />
+            <PrintName />
+            <PrintName />
+        </secioin>
+    )
 }
 
+
+/*
+const App = () => {
+    return (
+        <section className="container">
+            <hi> hello {new Date().toLocaleTimeString()}</hi>
+        </section>
+    );
+};
+*/
 
 
 /*

@@ -13,4 +13,7 @@ import App from "./App"
 //ReactDOM.render(< PrintName /> , document.getElementById("root"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(< App />)
+
+setInterval(() => {
+    root.render(<App />);
+}, 1000);

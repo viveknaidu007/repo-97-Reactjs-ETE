@@ -89,3 +89,21 @@
 ## so , documentation is best place to learn :
 * https://legacy.reactjs.org/docs/introducing-jsx.html
 
+
+<!--
+    Virtual DOM: React uses a virtual DOM, which is a lightweight copy of the actual DOM. This allows React to update only the parts of the DOM that have changed, rather than re-rendering the entire page. This results in significant performance improvements, especially in complex applications.
+
+    Component-Based Architecture: React's architecture is based on reusable components. Each component encapsulates its own structure, style, and behavior, promoting modularity and code reusability. This makes development faster and more manageable, especially for large-scale applications.
+
+    Efficient Updates: React's reconciliation algorithm efficiently updates the DOM, minimizing the number of operations needed. When the state of an object changes, React updates only the necessary parts of the DOM, ensuring fast rendering and improved performance.
+
+    React Fiber: React Fiber, a reimplementation of the React core algorithm, enhances the ability to prioritize updates, pause and resume work, and reuse previously completed work. This leads to smoother and more responsive user interfaces.
+
+    Server-Side Rendering (SSR): React supports server-side rendering, which can improve the performance of web applications by rendering components on the server before sending them to the client. This results in faster initial page loads and better SEO performance.
+
+    Developer Tools: React comes with a robust set of developer tools that help in debugging and optimizing applications. The React Developer Tools extension for browsers allows developers to inspect React component hierarchies, props, and state.
+
+    Rich Ecosystem: React has a rich ecosystem of libraries and tools that enhance its capabilities, such as Redux for state management, React Router for navigation, and various UI component libraries. This ecosystem facilitates the development of complex applications with high performance.
+
+    Community and Support: React has a large and active community, which means continuous improvements, a wealth of tutorials, and a vast pool of shared knowledge. This community support contributes to the rapid development and optimization of React applications.
+-->
